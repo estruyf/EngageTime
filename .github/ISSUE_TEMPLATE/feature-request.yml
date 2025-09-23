@@ -1,0 +1,136 @@
+name: Feature Request
+description: Suggest a new feature or enhancement for Engage Time
+title: "[FEATURE] "
+labels: ["enhancement", "feature-request"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a new feature! Your ideas help make Engage Time better for everyone.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: A clear and concise description of the feature you'd like to see added
+      placeholder: Describe the feature you would like to see...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve? Is your feature request related to a problem?
+      placeholder: Describe the problem this feature would solve...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like to see implemented
+      placeholder: How would you like this feature to work?
+    validations:
+      required: true
+
+  - type: input
+    id: trainer-role
+    attributes:
+      label: Trainer Role
+      description: How would trainers/facilitators use this feature?
+      placeholder: e.g., Set up interactive polls during presentations
+
+  - type: input
+    id: participant-role
+    attributes:
+      label: Participant Role
+      description: How would participants use this feature?
+      placeholder: e.g., Submit anonymous feedback during sessions
+
+  - type: dropdown
+    id: session-type
+    attributes:
+      label: Session Type
+      description: What type of sessions would benefit from this feature?
+      multiple: true
+      options:
+        - Workshop
+        - Presentation
+        - Interactive Training
+        - Meeting
+        - Conference
+        - Webinar
+        - Classroom Learning
+        - Corporate Training
+        - All session types
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Describe any alternative solutions or features you've considered
+      placeholder: What other approaches have you thought about?
+
+  - type: checkboxes
+    id: training-impact
+    attributes:
+      label: Training Impact
+      description: How would this feature improve the training experience?
+      options:
+        - label: Increases engagement
+        - label: Improves skill assessment
+        - label: Enhances collaboration
+        - label: Simplifies trainer workflow
+        - label: Improves accessibility
+        - label: Better data collection/analytics
+        - label: Reduces setup time
+        - label: Supports remote learning
+        - label: Enables personalization
+
+  - type: input
+    id: other-impact
+    attributes:
+      label: Other Impact
+      description: If you selected "Other" above, please specify
+      placeholder: Describe other ways this would improve training...
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Implementation Priority
+      description: How important is this feature to you?
+      options:
+        - Critical - Blocks current usage
+        - High - Would significantly improve experience
+        - Medium - Nice to have enhancement
+        - Low - Future consideration
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case-example
+    attributes:
+      label: Detailed Use Case Example
+      description: Provide a specific example of how this feature would be used in a real training scenario
+      placeholder: |
+        Example: During a 2-hour technical workshop with 15 participants...
+        1. Trainer would...
+        2. Participants would...
+        3. The result would be...
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Mockups or References
+      description: Add any mockups, wireframes, screenshots from other tools, or examples that illustrate your idea
+      placeholder: Drop images here or provide links to examples...
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context, technical requirements, or considerations about the feature request
+      placeholder: Any other details that might be helpful...
