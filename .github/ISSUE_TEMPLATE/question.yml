@@ -1,0 +1,166 @@
+name: Question & Support
+description: Ask a question or get help with using Engage Time
+title: "[QUESTION] "
+labels: ["question", "support"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help with Engage Time? We're here to assist! Please provide as much detail as possible so we can give you the best support.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know?
+      placeholder: Ask your question here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Provide some context about what you're trying to accomplish
+      placeholder: What are you trying to achieve? What's your goal?
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-tried
+    attributes:
+      label: What I've Tried
+      description: Describe what you've already attempted
+      placeholder: |
+        Please list the steps you've already taken:
+        1. First I tried...
+        2. Then I attempted...
+        3. I also looked at...
+
+  - type: dropdown
+    id: question-category
+    attributes:
+      label: Question Category
+      description: What category does your question fall into?
+      options:
+        - Getting Started/Setup
+        - Feature Usage/How-to
+        - Troubleshooting
+        - Best Practices
+        - Training Methodology
+        - Technical Integration
+        - Account/Billing
+        - Performance/Optimization
+        - Mobile/Browser Compatibility
+        - Accessibility
+        - Data/Analytics
+        - Other
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency Level
+      description: How urgent is this question?
+      options:
+        - Low - General inquiry, no time pressure
+        - Medium - Would like to resolve within a week
+        - High - Need answer within 24-48 hours
+        - Critical - Urgent, session scheduled soon
+    validations:
+      required: true
+
+  - type: input
+    id: session-type
+    attributes:
+      label: Session Type
+      description: What type of session are you planning or conducting?
+      placeholder: e.g., Workshop, Meeting, Training, Webinar
+
+  - type: input
+    id: participants
+    attributes:
+      label: Number of Participants
+      description: How many participants will be involved?
+      placeholder: e.g., 10, 50, 100+
+
+  - type: input
+    id: session-goals
+    attributes:
+      label: Session Goals
+      description: What are you hoping to accomplish in your session?
+      placeholder: e.g., Skills training, team building, information sharing
+
+  - type: textarea
+    id: expected-outcome
+    attributes:
+      label: Expected Outcome
+      description: What result are you hoping to achieve?
+      placeholder: Describe what success looks like for your situation...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: experience-level
+    attributes:
+      label: Experience Level
+      description: How would you describe your experience with Engage Time?
+      options:
+        - Complete beginner - just getting started
+        - Basic - used a few features
+        - Intermediate - comfortable with most features
+        - Advanced - experienced user
+        - Expert - power user with deep knowledge
+
+  - type: input
+    id: platform-environment
+    attributes:
+      label: Platform/Environment
+      description: What platform/environment are you using?
+      placeholder: e.g., Web browser (Chrome), Mobile app, Tablet
+
+  - type: checkboxes
+    id: documentation-checked
+    attributes:
+      label: Documentation Checked
+      description: Have you checked the available resources?
+      options:
+        - label: I've checked the website documentation
+        - label: I've searched existing issues and discussions
+        - label: I've looked through the help/FAQ section
+        - label: I've watched available tutorials/videos
+        - label: This appears to be undocumented
+        - label: The documentation exists but wasn't clear to me
+
+  - type: textarea
+    id: specific-error
+    attributes:
+      label: Specific Error or Issue
+      description: If you're encountering an error, please provide details
+      placeholder: Include any error messages, unexpected behavior, or screenshots...
+
+  - type: textarea
+    id: screen-sharing
+    attributes:
+      label: Screen Sharing/Demo Request
+      description: Would a screen sharing session or demo be helpful for your question?
+      placeholder: Let us know if you'd benefit from a live walkthrough or demo...
+
+  - type: dropdown
+    id: follow-up-preference
+    attributes:
+      label: Follow-up Preference
+      description: How would you prefer to receive follow-up assistance?
+      options:
+        - GitHub issue comments (default)
+        - Email if complex explanation needed
+        - Discord community chat
+        - No preference
+        - Public discussion for others to benefit
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other details that might be helpful
+      placeholder: Share any other context, constraints, or requirements...

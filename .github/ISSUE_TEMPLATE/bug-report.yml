@@ -1,0 +1,173 @@
+name: Bug Report
+description: Report a bug or issue with Engage Time
+title: "[BUG] "
+labels: ["bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please provide as much detail as possible to help us understand and reproduce the issue.
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is
+      placeholder: Describe the bug you encountered...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen
+      placeholder: What should have happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: A clear and concise description of what actually happened
+      placeholder: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots/Videos
+      description: If applicable, add screenshots or videos to help explain your problem
+      placeholder: Drop screenshots or videos here, or provide links...
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform are you using?
+      options:
+        - Web (Desktop)
+        - Web (Mobile)
+        - Web (Tablet)
+        - Mobile App
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: What browser are you using?
+      placeholder: e.g., Chrome, Firefox, Safari, Edge
+    validations:
+      required: true
+
+  - type: input
+    id: browser-version
+    attributes:
+      label: Browser Version
+      description: What version of the browser?
+      placeholder: e.g., 96.0.4664.110
+
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: What operating system are you using?
+      placeholder: e.g., Windows 11, macOS 12, iOS 15
+    validations:
+      required: true
+
+  - type: input
+    id: screen-resolution
+    attributes:
+      label: Screen Resolution
+      description: What is your screen resolution?
+      placeholder: e.g., 1920x1080
+
+  - type: dropdown
+    id: session-type
+    attributes:
+      label: Session Type
+      description: What type of session were you conducting?
+      options:
+        - Workshop
+        - Presentation
+        - Interactive Training
+        - Meeting
+        - Conference
+        - Other
+        - Not applicable
+
+  - type: input
+    id: participants
+    attributes:
+      label: Number of Participants
+      description: How many participants were in your session?
+      placeholder: e.g., 5, 20, 50+
+
+  - type: input
+    id: session-duration
+    attributes:
+      label: Session Duration
+      description: How long was your session?
+      placeholder: e.g., 30 minutes, 2 hours
+
+  - type: input
+    id: feature-used
+    attributes:
+      label: Feature Being Used
+      description: What feature of Engage Time were you using when the bug occurred?
+      placeholder: e.g., Timer, Polls, Breakout Rooms
+
+  - type: textarea
+    id: error-messages
+    attributes:
+      label: Error Messages
+      description: If applicable, include any error messages or console logs
+      placeholder: Paste error messages here...
+      render: shell
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact Assessment
+      description: How does this bug affect your training sessions?
+      options:
+        - Critical - Prevents using the application
+        - High - Significantly impacts training effectiveness
+        - Medium - Causes inconvenience but workarounds exist
+        - Low - Minor issue with minimal impact
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Workaround
+      description: If you found a temporary workaround, please describe it here
+      placeholder: Describe any workarounds you've found...
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+      placeholder: Any other details that might be helpful...
