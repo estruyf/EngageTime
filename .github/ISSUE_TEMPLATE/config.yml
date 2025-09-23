@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🌐 Engage Time Website
+    url: https://engagetime.live
+    about: Visit the official Engage Time website for more information
+  - name: 📚 Documentation & Guides
+    url: https://engagetime.live
+    about: Access documentation, tutorials, and training guides
+  - name: 💬 Community Discussions
+    url: https://github.com/estruyf/engage-time/discussions
+    about: Join community discussions for general questions and support
