@@ -32,5 +32,4 @@ assignees: ''
 <!-- Have you checked the available documentation? -->
 - [ ] I've checked the website documentation
 - [ ] I've searched existing issues
-- [ ] I've looked through discussions
 - [ ] This appears to be undocumented
