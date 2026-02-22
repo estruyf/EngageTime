@@ -5,7 +5,7 @@
 [![License: BUSL-1.1](https://img.shields.io/badge/License-BUSL--1.1-yellow.svg)](https://mariadb.com/bsl11/)
 [![Website](https://img.shields.io/badge/Website-engagetime.live-blue)](https://engagetime.live)
 
-EngageTime helps event organizers and speakers create interactive experiences for their audience — live polls, Q&A, session feedback, and more. Used at conferences across Europe and beyond.
+EngageTime helps event organizers and speakers create interactive experiences for their audience, like live polls, Q&A, session feedback, and more. Used at conferences across Europe and beyond.
 
 ---
 
@@ -47,7 +47,7 @@ All releases of our desktop app can be found on the [releases](https://github.co
 
 *TBA*
 
-> ⚠️ Running EngageTime locally for personal testing is free. Using it for any event requires a valid license. See the [pricing page](https://engagetime.live/pricing).
+> ⚠️ Running EngageTime locally for personal testing is free. Using it for any event requires a valid license. See the [pricing page](https://engagetime.live).
 
 ---
 
