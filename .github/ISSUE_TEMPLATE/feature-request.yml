@@ -90,13 +90,6 @@ body:
         - label: Supports remote learning
         - label: Enables personalization
 
-  - type: input
-    id: other-impact
-    attributes:
-      label: Other Impact
-      description: If you selected "Other" above, please specify
-      placeholder: Describe other ways this would improve training...
-
   - type: dropdown
     id: priority
     attributes:
