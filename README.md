@@ -47,8 +47,6 @@ All releases of our desktop app can be found on the [releases](https://github.co
 
 *TBA*
 
-```
-
 > ⚠️ Running EngageTime locally for personal testing is free. Using it for any event requires a valid license. See the [pricing page](https://engagetime.live/pricing).
 
 ---
