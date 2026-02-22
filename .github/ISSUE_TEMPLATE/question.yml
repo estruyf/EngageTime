@@ -1,5 +1,5 @@
 name: Question & Support
-description: Ask a question or get help with using Engage Time
+description: Ask a question or get help with using EngageTime
 title: "[QUESTION] "
 labels: ["question", "support"]
 assignees: []
@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Need help with Engage Time? We're here to assist! Please provide as much detail as possible so we can give you the best support.
+        Need help with EngageTime? We're here to assist! Please provide as much detail as possible so we can give you the best support.
 
   - type: textarea
     id: question
@@ -104,7 +104,7 @@ body:
     id: experience-level
     attributes:
       label: Experience Level
-      description: How would you describe your experience with Engage Time?
+      description: How would you describe your experience with EngageTime?
       options:
         - Complete beginner - just getting started
         - Basic - used a few features

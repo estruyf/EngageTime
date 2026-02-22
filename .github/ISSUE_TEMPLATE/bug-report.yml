@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a bug or issue with Engage Time
+description: Report a bug or issue with EngageTime
 title: "[BUG] "
 labels: ["bug"]
 assignees: []
@@ -134,7 +134,7 @@ body:
     id: feature-used
     attributes:
       label: Feature Being Used
-      description: What feature of Engage Time were you using when the bug occurred?
+      description: What feature of EngageTime were you using when the bug occurred?
       placeholder: e.g., Timer, Polls, Breakout Rooms
 
   - type: textarea
